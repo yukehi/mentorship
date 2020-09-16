@@ -1,76 +1,75 @@
-body{
-  margin: auto;
-  text-align: center;
+body {}
+
+/* ------mnue and bar------*/
+.img-logo {
+  width: 50px;
+  height: 50px;
 }
 
-
-
-.top_bar{
-  text-align: center;
-  width: 1305px;
-
-}
-.bottom-brand{
-  position: relative;
-  right: 100px;
-
-
-
-}
-.right_bar{
-  position: relative;
-  left: 500px;
-  bottom: 30px;
-
-
+.bar-right {
+  width: 200px;
 }
 
-.right_bar_button{
-  position: relative;
-  left: 100px;
-  bottom: 18px;
+.btn-mantorship {
+  display: inline-block;
+  top: 5px;
+  padding: 15px 30px 30px 0px;
 }
 
-.Haeder{
-    width: auto;
-    height: 500px;
-    background-color: purple;
-
+.btn-conacat {
+  background-color: #ffffff;
+  border-radius: 28px;
+  border: 1px solid #7410f7;
+  display: inline-block;
+  cursor: pointer;
+  color: #7410f7;
+  font-family: Trebuchet MS;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
 }
 
-.inner-hader{
-  position: relative;
-  top: 150px;
+.btn-conacat:hover {
+  background-color: #7410f7;
   color: white;
 }
 
-.continer{
-  margin: auto 300px;
+.btn-conacat:active {
   position: relative;
-  bottom: 150px;
-  width: 1305px;
-  height: 852px;
-
+  top: 1px;
 }
 
-.box{
-  width: 852px;
-  height: 1200px;
+/* ------hader------*/
+.hero-body {
+  justify-content: center;
+}
+
+.main-hader {
+  margin-top: 3%;
+  margin-bottom: 10%;
+}
+
+.culs-is-centered {
   display: flex;
+  justify-content: center;
+}
+
+.cul {
+  text-align: center;
+}
+
+.hader-title {
+  padding: 3%;
+}
+
+.hader-title-bottom {
+  padding: 0% 0% 10% 0%;
+}
+.avter{
+  padding: 0% auto 3% auto;
 
 }
-.cloums{
-  display: flex;
-  background-color: white;
-
-}
-.cloum{
- width: 400px;
- height: 800px;
- margin: 30px;
-
-}
-.descripstion{
-  margin: auto;
-  width: 80%;
+.hero-foot {
+  text-align: center;
 }
